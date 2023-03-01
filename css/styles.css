@@ -7,17 +7,18 @@ ul.navigation {
     border:5px solid black;
     position:static; /* Requirement-2.15 */
 }
-
 ul.navigation li {
     float: left;
     border-right: 3px solid black;
 }
-
 ul.navigation li a {
     display: block; /* Requirement-2.12 */
     color:white;
     text-align: center;
     padding:14px 16px;
+}
+a:hover { /* Requirement-2.E */
+    color:orange;
 }
 h1 { /* Requirement-2.A */
     text-align:center; /* Requirement-2.2 */
@@ -46,7 +47,7 @@ img.icon {
 }
 
 /* when we learn javascript i'll try to make this appear secretly */
-a.secret { /* Requirement-2.E */
+a.secret { 
     position:absolute; 
     visibility:hidden; /* Requirement-2.16 */
     right: 20px;
